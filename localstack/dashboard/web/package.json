@@ -15,6 +15,12 @@
     "jsplumb": "2.1.4",
     "dagre": "0.8.1",
     "angular-resizable": "1.2.0",
-    "angular-ui-layout": "1.4.2"
-  }
+    "angular-ui-layout": "1.4.2",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
