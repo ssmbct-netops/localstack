@@ -5,9 +5,15 @@
   "version": "0.0.1",
   "dependencies": {
     "kinesalite": "3.2.0",
-    "serverless-iot-offline": "git+https://github.com/whummer/serverless-iot-offline.git"
+    "serverless-iot-offline": "git+https://github.com/whummer/serverless-iot-offline.git",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "leveldown": "^5.2.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
