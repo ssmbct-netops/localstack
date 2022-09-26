@@ -31,14 +31,14 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <aws.sdk.version>1.11.660</aws.sdk.version>
+        <aws.sdk.version>1.12.310</aws.sdk.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <optional>true</optional>
         </dependency>
         <dependency>
