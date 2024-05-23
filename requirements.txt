@@ -12,7 +12,7 @@ airspeed==0.5.10
 amazon_kclpy-ext==1.5.1
 # amazon-kclpy==1.5.1
 aws-sam-translator>=1.15.1
-awscli>=1.14.18
+awscli>=1.27.90
 boto>=2.49.0
 boto3>=1.9.71                  #basic-lib
 botocore>=1.12.13
@@ -40,8 +40,15 @@ pympler>=0.6
 pyopenssl==17.5.0
 python-coveralls>=2.9.1
 pyyaml>=3.13,<=5.1
-requests>=2.20.0               #basic-lib
+requests>=2.31.0               #basic-lib
 requests-aws4auth==0.9
 six>=1.12.0                    #basic-lib
 subprocess32==3.5.4            #basic-lib
 xmltodict>=0.11.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
